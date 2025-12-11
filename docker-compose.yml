@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb-prod
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: secure123
+    ports:
+      - "27017:27017"
+    networks:
+      - vault-network
+    volumes:
+      - ./data:/data/db
+
+  vault-backend:
+    image: burhanaslam123/vault-backend:v1.0
+    container_name: vault-backend-prod
+    restart: always
+    environment:
+      MONGODB_URI: "mongodb://admin:secure123@mongodb-prod:27017/vaultdb?authSource=admin"
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb
+    networks:
+      - vault-network
+
+networks:
+  vault-network:
+    driver: bridge
