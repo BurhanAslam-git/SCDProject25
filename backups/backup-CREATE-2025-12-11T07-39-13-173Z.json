@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-12-11T07:39:13.197Z",
+  "operation": "CREATE",
+  "trigger": {
+    "name": "Ali Raza",
+    "id": "693a752116869ab5b2e1f10f"
+  },
+  "data": [
+    {
+      "_id": "693a725916869ab5b2e1f103",
+      "name": "Ali Raza",
+      "content": "Test content for Ali",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:27:21.381Z",
+      "updatedAt": "2025-12-11T07:27:21.427Z",
+      "__v": 0
+    },
+    {
+      "_id": "693a727616869ab5b2e1f106",
+      "name": "Alina Khan",
+      "content": "Test content for Alina",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:27:50.402Z",
+      "updatedAt": "2025-12-11T07:27:50.403Z",
+      "__v": 0
+    },
+    {
+      "_id": "693a729516869ab5b2e1f109",
+      "name": "Bilal Ahmed",
+      "content": "Test content for Bilal",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:28:21.729Z",
+      "updatedAt": "2025-12-11T07:28:21.740Z",
+      "__v": 0
+    },
+    {
+      "_id": "693a72a116869ab5b2e1f10c",
+      "name": "Ali Raza",
+      "content": "Test content for Ali",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:28:33.551Z",
+      "updatedAt": "2025-12-11T07:28:33.553Z",
+      "__v": 0
+    },
+    {
+      "_id": "693a752116869ab5b2e1f10f",
+      "name": "Ali Raza",
+      "content": "Test content for Ali",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:39:13.110Z",
+      "updatedAt": "2025-12-11T07:39:13.122Z",
+      "__v": 0
+    }
+  ],
+  "count": 5
+}

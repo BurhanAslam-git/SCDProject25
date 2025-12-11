@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-12-11T07:27:21.621Z",
+  "operation": "CREATE",
+  "trigger": {
+    "name": "Ali Raza",
+    "id": "693a725916869ab5b2e1f103"
+  },
+  "data": [
+    {
+      "_id": "693a725916869ab5b2e1f103",
+      "name": "Ali Raza",
+      "content": "Test content for Ali",
+      "category": "general",
+      "tags": [],
+      "createdAt": "2025-12-11T07:27:21.381Z",
+      "updatedAt": "2025-12-11T07:27:21.427Z",
+      "__v": 0
+    }
+  ],
+  "count": 1
+}
